@@ -2,6 +2,9 @@
 using System.Diagnostics;
 #if DEBUG
 Debug.WriteLine("Debugging started!");
+
+//trigger breakpoint here
+Debug.Assert(false);
 #endif
 #if RELEASE
 Console.WriteLine("---begin testing---");
